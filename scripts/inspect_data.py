@@ -60,6 +60,12 @@ with duckdb.connect(str(DB_PATH), read_only=True) as con:
             WHERE order_purchase_timestamp IS NOT NULL
               AND TRY_CAST(order_purchase_timestamp AS TIMESTAMP) IS NULL
         """,
+        "Пробные sql": """
+            SELECT 
+                COUNT(*) AS count
+            FROM order_items
+            WHERE TRY_CAST(freight_value AS DECIMAL) IS NULL
+        """,
     }
 
     for title, query in checks.items():
