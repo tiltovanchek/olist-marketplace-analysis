@@ -24,7 +24,7 @@ def main():
         print("База:", DB_PATH)
         print("Таблицы:", con.execute("SHOW TABLES").fetchall())
         print("Строк в mart_orders:",
-            con.execute("SELECT COUNT(*) FROM mart_orders").fetchone()[0])
+            con.execute("SELECT COUNT(*) FROM mart_order_categories").fetchone()[0])
 
     print(f"SQL-файл выполнен: {SQL_PATH}")
 

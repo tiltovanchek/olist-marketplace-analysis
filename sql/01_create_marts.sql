@@ -75,3 +75,19 @@ FROM relevant_order r
 LEFT JOIN order_positions o ON o.order_id = r.order_id
 LEFT JOIN payments p ON p.order_id = r.order_id
 LEFT JOIN reviews rv ON rv.order_id = r.order_id;
+
+CREATE OR REPLACE TABLE mart_order_categories AS
+SELECT 
+    m.order_id AS order_id, 
+    COUNT(*) AS category_items_count, 
+    SUM(TRY_CAST(o.price AS DECIMAL(10, 2))) as category_gmv,
+    CASE
+        WHEN p.product_category_name IS NULL
+            OR p.product_category_name = ''
+        THEN 'unknown'
+        ELSE p.product_category_name
+    END AS category_name
+FROM mart_orders m 
+JOIN order_items o ON o.order_id = m.order_id
+LEFT JOIN products p ON p.product_id = o.product_id 
+GROUP BY m.order_id, p.product_category_name
