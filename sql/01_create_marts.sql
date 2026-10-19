@@ -1,3 +1,4 @@
+-- Витрина заказов для анализа динамики продаж, покупателей, повторных покупок и доставки
 CREATE OR REPLACE TABLE mart_orders AS
 WITH relevant_order AS (
     SELECT 
@@ -76,6 +77,7 @@ LEFT JOIN order_positions o ON o.order_id = r.order_id
 LEFT JOIN payments p ON p.order_id = r.order_id
 LEFT JOIN reviews rv ON rv.order_id = r.order_id;
 
+-- Витрина категорий заказов
 CREATE OR REPLACE TABLE mart_order_categories AS
 WITH categorized_items AS (
     SELECT
