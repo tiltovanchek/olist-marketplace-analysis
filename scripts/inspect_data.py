@@ -9,13 +9,25 @@ DB_PATH = ROOT / "data" / "olist.duckdb"
 with duckdb.connect(str(DB_PATH), read_only=True) as con:
     checks = {
         "Пробные sql": """
+            WITH o_items AS (
+                SELECT 
+                    SUM(TRY_CAST(price AS DECIMAL(10, 2))) AS price_total,
+                FROM order_items o 
+                JOIN mart_orders m ON m.order_id = o.order_id
+            ), m_orders AS (
+                SELECT
+                    SUM(items_gmv) AS sum_items_gmv
+                FROM mart_orders
+            )
+            SELECT
+                o.price_total - m.sum_items_gmv AS diff
+            FROM o_items o 
+            CROSS JOIN m_orders m;
+        """,
+        "Пробные sql2": """
             SELECT 
-                order_id,
-                category_name,
-                COUNT(*)
-            FROM mart_order_categories
-            GROUP BY order_id, category_name
-            HAVING COUNT(*) > 1
+                SUM(items_gmv)
+            FROM mart_orders
         """,
     }
 

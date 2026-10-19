@@ -62,7 +62,7 @@ SELECT
     o.total_freight AS freight_total,
     p.sum_payment AS payment_total,
     r.order_estimated_delivery_date AS estimated_delivery_date,
-    r.order_delivered_customer_date AS actual_delivery_date,
+    r.order_delivered_customer_date AS actual_delivery_ts,
     rv.review_score AS review_score,
     CASE
         WHEN r.order_delivered_customer_date IS NULL
@@ -77,17 +77,24 @@ LEFT JOIN payments p ON p.order_id = r.order_id
 LEFT JOIN reviews rv ON rv.order_id = r.order_id;
 
 CREATE OR REPLACE TABLE mart_order_categories AS
-SELECT 
-    m.order_id AS order_id, 
-    COUNT(*) AS category_items_count, 
-    SUM(TRY_CAST(o.price AS DECIMAL(10, 2))) as category_gmv,
-    CASE
-        WHEN p.product_category_name IS NULL
-            OR p.product_category_name = ''
-        THEN 'unknown'
-        ELSE p.product_category_name
-    END AS category_name
-FROM mart_orders m 
-JOIN order_items o ON o.order_id = m.order_id
-LEFT JOIN products p ON p.product_id = o.product_id 
-GROUP BY m.order_id, p.product_category_name
+WITH categorized_items AS (
+    SELECT
+        m.order_id,
+        TRY_CAST(o.price AS DECIMAL(10, 2)) AS item_price,
+        CASE
+            WHEN p.product_category_name IS NULL
+              OR TRIM(p.product_category_name) = ''
+            THEN 'unknown'
+            ELSE p.product_category_name
+        END AS category_name
+    FROM mart_orders AS m
+    JOIN order_items AS o ON o.order_id = m.order_id
+    LEFT JOIN products AS p ON p.product_id = o.product_id
+)
+SELECT
+    order_id,
+    COUNT(*) AS category_items_count,
+    SUM(item_price) AS category_gmv,
+    category_name
+FROM categorized_items
+GROUP BY order_id, category_name;

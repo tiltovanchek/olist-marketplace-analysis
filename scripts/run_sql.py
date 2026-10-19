@@ -5,7 +5,7 @@ import duckdb
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "olist.duckdb"
-SQL_PATH = ROOT / "sql" / "01_create_marts.sql"
+SQL_PATH = ROOT / "sql" / "02_data_quality.sql"
 
 def main():
     if not DB_PATH.exists():
@@ -23,8 +23,6 @@ def main():
         con.execute(sql)
         print("База:", DB_PATH)
         print("Таблицы:", con.execute("SHOW TABLES").fetchall())
-        print("Строк в mart_orders:",
-            con.execute("SELECT COUNT(*) FROM mart_order_categories").fetchone()[0])
 
     print(f"SQL-файл выполнен: {SQL_PATH}")
 
