@@ -62,7 +62,7 @@ SELECT
     o.total_freight AS freight_total,
     p.sum_payment AS payment_total,
     r.order_estimated_delivery_date AS estimated_delivery_date,
-    r.order_delivered_customer_date AS actual_delivery_ts,
+    r.order_delivered_customer_date AS actual_delivery_date,
     rv.review_score AS review_score,
     CASE
         WHEN r.order_delivered_customer_date IS NULL
