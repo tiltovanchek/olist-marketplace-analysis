@@ -11,6 +11,7 @@ SQL_DIR = ROOT / "sql"
 ALLOWED_FILES = (
     "01_create_marts.sql",
     "02_data_quality.sql",
+    "03_metrics.sql",
 )
 
 
