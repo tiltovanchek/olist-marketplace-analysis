@@ -12,6 +12,8 @@ ALLOWED_FILES = (
     "01_create_marts.sql",
     "02_data_quality.sql",
     "03_metrics.sql",
+    "04_delivery_metrics.sql",
+    "05_review_metrics.sql",
 )
 
 
