@@ -95,3 +95,17 @@ WHERE is_late IS NOT NULL
   AND review_score IS NOT NULL
 GROUP BY is_late
 ORDER BY is_late;
+
+-- Данные на уровне заказа для сравнения оценок.
+-- У одного покупателя может быть несколько заказов;
+-- в Python бутстрап будет выполняться по покупателям.
+
+SELECT
+    customer_unique_id,
+    is_late,
+    review_score,
+    order_id
+FROM mart_orders
+WHERE is_late IS NOT NULL
+  AND review_score IS NOT NULL
+  AND customer_unique_id IS NOT NULL;

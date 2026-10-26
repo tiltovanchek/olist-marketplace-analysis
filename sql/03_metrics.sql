@@ -188,3 +188,34 @@ SELECT
 FROM category_totals AS c
 CROSS JOIN overall_total AS t
 ORDER BY c.sum_gmv DESC;
+
+WITH paid AS (
+    SELECT
+        u.user_id AS user_id,
+        u.registered_at AS registered_at,
+        MAX(
+            CASE
+                WHEN
+                    o.paid >= u.registered_at
+                AND    
+                    o.paid_at < INTERVAL '7 days' + u.registered_at
+                AND
+                    (o.paid_at IS NOT NULL) AND (u.registered_at IS NOT NULL)
+                THEN 1
+                ELSE 0
+            END
+        ) AS flag
+    FROM users u 
+    LEFT JOIN orders o ON o.user_id = u.user_id
+)
+
+SELECT 
+    u.registered_at::DATE,
+    COUNT(u.user_id) AS users_cnt,
+    SUM(p.flag::INTEGER)::NUMERIC AS who_paid,
+    SUM(p.flag::INTEGER)::NUMERIC / NULLIF(COUNT(u.user_id), 0) AS CR 
+FROM users u
+LEFT JOIN paid p ON u.user_id = p.user_id
+WHERE (EXTRACT(YEAR FROM u.registered_at) = 2026)
+    AND (EXTRACT(MONTH FROM u.registered_at) = 1)
+GROUP BY u.registered_at
