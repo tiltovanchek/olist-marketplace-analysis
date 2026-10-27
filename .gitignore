@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.vscode/
+scripts/tempCodeRunnerFile.py
+data/*.csv
+data/*.duckdb
+data/*.duckdb.wal
+data/*.duckdb.tmp/
+
