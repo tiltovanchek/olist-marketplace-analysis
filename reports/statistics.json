@@ -1,0 +1,67 @@
+{
+  "review_low_score": {
+    "difference_pp": 54.68428498775735,
+    "ci95_pp": [
+      53.45067614003636,
+      55.90828693785531
+    ],
+    "buyers": 80462,
+    "orders": 83112,
+    "late_n": 5793,
+    "on_time_n": 77319,
+    "late_rate": 0.6414638356637321,
+    "on_time_rate": 0.09462098578615864,
+    "iterations": 2000,
+    "seed": 42
+  },
+  "review_after_delivery": {
+    "difference_pp": 10.714199471791211,
+    "ci95_pp": [
+      8.83973714459282,
+      12.710424086639616
+    ],
+    "buyers": 76436,
+    "orders": 78774,
+    "late_n": 1627,
+    "on_time_n": 77147,
+    "late_rate": 0.2015980331899201,
+    "on_time_rate": 0.09445603847200798,
+    "iterations": 2000,
+    "seed": 42
+  },
+  "month_state_standardized_difference_pp": 50.372927059221716,
+  "standardized_strata": 339,
+  "standardized_review_coverage": 0.9666233516219078,
+  "service_orders": 83701,
+  "service_unknown_delivery_dates": 5,
+  "service_missing_reviews": 584,
+  "reviews_before_delivery": 4338,
+  "repeat90": {
+    "eligible_buyers": 75439,
+    "repeated_buyers": 1717,
+    "repeat_rate": 0.022760110818011905,
+    "ci95": [
+      0.02171992507947032,
+      0.023848897519784334
+    ],
+    "repeat_after_1d_buyers": 963,
+    "repeat_after_1d_rate": 0.012765280557801668,
+    "same_day_second_buyers": 782,
+    "earlier_cutoff": "2018-08-01",
+    "earlier_eligible_buyers": 69142,
+    "earlier_repeat_rate": 0.0234589684996095,
+    "postdelivery_eligible_buyers": 73075,
+    "postdelivery_repeated_buyers": 833,
+    "postdelivery_rate": 0.011399247348614437
+  },
+  "experiment": {
+    "baseline_proxy": 0.011399247348614437,
+    "absolute_mde": 0.005,
+    "alpha": 0.05,
+    "power": 0.8,
+    "buyers_per_arm": 8605,
+    "total_buyers": 17210,
+    "note": "Planning proxy from delivered buyers; re-estimate in the eligible ITT shadow cohort."
+  },
+  "data_quality_checks": 20
+}

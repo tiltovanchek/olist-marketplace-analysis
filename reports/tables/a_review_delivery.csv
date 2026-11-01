@@ -1,0 +1,3 @@
+is_late,reviewed_orders,avg_review_score,low_review_orders,low_review_rate_pct,reviewed_after_delivery_orders,low_review_after_delivery_orders,avg_review_after_delivery_score,low_review_after_delivery_rate_pct
+False,77319,4.276956504869437,7316,9.462098578615864,77147,7287,4.277625831205361,9.445603847200799
+True,5793,2.206110823407561,3716,64.1463835663732,1627,328,3.679778733866011,20.159803318992008
