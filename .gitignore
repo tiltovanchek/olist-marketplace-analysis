@@ -5,9 +5,21 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+.local/
 scripts/tempCodeRunnerFile.py
 data/*.csv
 data/*.duckdb
 data/*.duckdb.wal
 data/*.duckdb.tmp/
+data/powerbi/
+
+# Power BI local caches and recovery copies.
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+powerbi/recovery-before-*/
 
