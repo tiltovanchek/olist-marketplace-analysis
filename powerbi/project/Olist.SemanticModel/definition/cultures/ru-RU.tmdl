@@ -1,0 +1,6445 @@
+cultureInfo ru-RU
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "a_monthly": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "a monthly": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "a_monthly": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "monthly": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "continuing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "month-long": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "season": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "medium-term": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "ConceptualProperty": "month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "a_monthly.month.иерархия_дат": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "VariationSource": "month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "иерархия дат": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.month.год": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "VariationSource": "month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Год"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "год": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month год": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth год": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.month.квартал": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "VariationSource": "month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Квартал"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "квартал": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month квартал": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth квартал": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.month.месяц": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "VariationSource": "month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Месяц"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "месяц": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month месяц": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth месяц": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.month.день": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "VariationSource": "month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "День"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "день": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month день": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth день": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.orders_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "ConceptualProperty": "orders_count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "orders count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "orders_count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.delivered_order": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "ConceptualProperty": "delivered_orders"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delivered order": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delivered_orders": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "delivered instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "delivered direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "delivered edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "delivered command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "delivered directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "delivered demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "delivered mandate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.delivered_buyer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "ConceptualProperty": "delivered_buyers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delivered buyer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delivered_buyers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "delivered purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "delivered consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "delivered shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "delivered customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.delivered_gmv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "ConceptualProperty": "delivered_gmv"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delivered gmv": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delivered_gmv": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.gmv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "ConceptualProperty": "GMV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gmv": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.доставленные_заказы": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "ConceptualProperty": "Доставленные заказы"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "доставленные заказы": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "a_monthly.aov": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_monthly",
+			          "ConceptualProperty": "AOV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "aov": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "a repeat 90": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "a_repeat90": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "repeat 90": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "a recurrence 90": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "a replication 90": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "a reiteration 90": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "a duplication 90": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "a reappearance 90": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "a repetition 90": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "a echo 90": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "a recap 90": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "a reprise 90": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.cohort_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "ConceptualProperty": "cohort_month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cohort month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort_month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "cohort mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "a_repeat_90.cohort_month.иерархия_дат": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "VariationSource": "cohort_month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "иерархия дат": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.cohort_month.год": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "VariationSource": "cohort_month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Год"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "год": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort month год": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort mth год": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.cohort_month.квартал": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "VariationSource": "cohort_month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Квартал"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "квартал": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort month квартал": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort mth квартал": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.cohort_month.месяц": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "VariationSource": "cohort_month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Месяц"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "месяц": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort month месяц": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort mth месяц": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.cohort_month.день": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "VariationSource": "cohort_month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "День"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "день": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort month день": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort mth день": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.cohort_buyer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "ConceptualProperty": "cohort_buyers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cohort buyer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cohort_buyers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cohort purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cohort consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cohort shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cohort customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.eligible_buyer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "ConceptualProperty": "eligible_buyers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "eligible buyer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "eligible_buyers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "eligible purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "eligible consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "eligible shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "eligible customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.repeat_buyer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "ConceptualProperty": "repeat_buyers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "repeat buyer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "repeat_buyers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "repeat purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "repeat consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "repeat shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "repeat customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.repeat_after_1d_buyers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "ConceptualProperty": "repeat_after_1d_buyers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "repeat after 1d buyers": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "repeat after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "repeat_after_1d_buyers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "recurrence after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "replication after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "reiteration after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "duplication after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "reappearance after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "repetition after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "echo after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "recap after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "reprise after 1d buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.покупатели_с_окном_90_дней": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "ConceptualProperty": "Покупатели с окном 90 дней"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "покупатели с окном 90 дней": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.повторные_покупатели": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "ConceptualProperty": "Повторные покупатели"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "повторные покупатели": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Покупатели с повтором": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.доля_повторных_покупок": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "ConceptualProperty": "Доля повторных покупок"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "доля повторных покупок": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Любой повтор": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Доля покупателей с повтором": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "a_repeat_90.доля_повторных_покупок_после_суток": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "a_repeat90",
+			          "ConceptualProperty": "Доля повторных покупок после суток"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "доля повторных покупок после суток": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Повтор после 24 часов": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Повтор после 24 ч, %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "service_order": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "service order": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "service_orders": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "maintenance order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "examination order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "svc order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "package order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "repair order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "benefit order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "servicing order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "service instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "service direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "service edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.order_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "order_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "service_order.purchase_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "purchase_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "purchase date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "purchase_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "purchase moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "purchase period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "service_order.customer_state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "customer_state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer_state": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "state": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "customer condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Штат покупателя": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.delivery_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "delivery_status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delivery status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delivery_status": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "delivery category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delivery importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delivery prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delivery prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "delivery condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "delivery class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Доставка": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.is_late": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "is_late"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "is late": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "is_late": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.delivery_day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "delivery_days"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delivery day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delivery_days": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.review_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "review_score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "review score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "review_score": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "review notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "review slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "review groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "review nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "review cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "review mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.is_low_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "is_low_score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "is low score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "is_low_score": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "low score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "is low notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is low slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is low groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is low nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is low cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "is low mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "low notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "low slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "low groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "low nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.review_after_delivery": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "review_after_delivery"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "review after delivery": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "review_after_delivery": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "delivery": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "after delivery": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "review": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "appraisal after delivery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "evaluation after delivery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "assessment after delivery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "examination after delivery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "analysis after delivery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "criticism after delivery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "after distribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "after conveyance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "after carriage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "distribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.доставленные_заказы_сервиса": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "Доставленные заказы сервиса"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "доставленные заказы сервиса": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Доставленные заказы": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.заказы_с_известной_своевременностью": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "Заказы с известной своевременностью"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "заказы с известной своевременностью": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Известна своевременность": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.опоздавшие_заказы": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "Опоздавшие заказы"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "опоздавшие заказы": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.доля_опозданий": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "Доля опозданий"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "доля опозданий": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.заказы_с_отзывом": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "Заказы с отзывом"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "заказы с отзывом": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.низкие_оценки": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "Низкие оценки"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "низкие оценки": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Оценки 1–2": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.доля_низких_оценок": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "Доля низких оценок"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "доля низких оценок": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Доля оценок 1–2": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.отзывы_после_доставки": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "Отзывы после доставки"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "отзывы после доставки": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "service_order.доля_низких_оценок_после_доставки": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_orders",
+			          "ConceptualProperty": "Доля низких оценок после доставки"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "доля низких оценок после доставки": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Доля 1–2 после доставки": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "service calendar": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "service_calendar": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "calendar": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "maintenance calendar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "examination calendar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "svc calendar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "package calendar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "repair calendar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "benefit calendar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "servicing calendar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "service almanac": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "service datebook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "service agenda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "ConceptualProperty": "date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "service_calendar.date.иерархия_дат": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "иерархия дат": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.date.год": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Год"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "год": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date год": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment год": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period год": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.date.квартал": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Квартал"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "квартал": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date квартал": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment квартал": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period квартал": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.date.месяц": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Месяц"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "месяц": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date месяц": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment месяц": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period месяц": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.date.день": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "День"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "день": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date день": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment день": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period день": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.month_start": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "ConceptualProperty": "month_start"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month start": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month_start": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "start": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mth start": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "month twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month jolt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "service_calendar.month_start.иерархия_дат": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "month_start",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "иерархия дат": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.month_start.год": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "month_start",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Год"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "год": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month start год": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth start год": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.month_start.квартал": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "month_start",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Квартал"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "квартал": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month start квартал": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth start квартал": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.month_start.месяц": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "month_start",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "Месяц"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "месяц": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month start месяц": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth start месяц": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.month_start.день": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "VariationSource": "month_start",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Иерархия дат",
+			          "HierarchyLevel": "День"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "день": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month start день": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth start день": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "ConceptualProperty": "year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "service_calendar.month_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "ConceptualProperty": "month_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "service_calendar.year_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "service_calendar",
+			          "ConceptualProperty": "year_month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year_month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "year mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "service_calendar_month_start_год_has_service_calendar_month_start_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.month_start.год": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.год"
+			          }
+			        },
+			        "service_calendar.month_start.квартал": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.год"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "год_have_квартал"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.квартал"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_год"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.квартал"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "service_calendar.month_start.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_are_in_год3"
+			        }
+			      ]
+			    },
+			    "service_calendar_month_start_иерархия_дат_has_service_calendar_month_start_день": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.month_start.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.иерархия_дат"
+			          }
+			        },
+			        "service_calendar.month_start.день": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_день"
+			        }
+			      ]
+			    },
+			    "service_calendar_month_start_иерархия_дат_has_service_calendar_month_start_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.month_start.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.иерархия_дат"
+			          }
+			        },
+			        "service_calendar.month_start.месяц": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_месяц"
+			        }
+			      ]
+			    },
+			    "service_calendar_month_start_иерархия_дат_has_service_calendar_month_start_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.month_start.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.иерархия_дат"
+			          }
+			        },
+			        "service_calendar.month_start.квартал": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_квартал"
+			        }
+			      ]
+			    },
+			    "service_calendar_month_start_иерархия_дат_has_service_calendar_month_start_год": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.month_start.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.иерархия_дат"
+			          }
+			        },
+			        "service_calendar.month_start.год": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.год"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_год"
+			        }
+			      ]
+			    },
+			    "service_calendar_month_start_has_иерархия_дат": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.month_start": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start"
+			          }
+			        },
+			        "service_calendar.month_start.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.иерархия_дат"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.иерархия_дат"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_starts_have_иерархия_дат"
+			        }
+			      ]
+			    },
+			    "service_calendar_date_месяц_has_service_calendar_date_день": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.date.месяц": {
+			          "Target": {
+			            "Entity": "service_calendar.date.месяц"
+			          }
+			        },
+			        "service_calendar.date.день": {
+			          "Target": {
+			            "Entity": "service_calendar.date.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.месяц"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_день"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.день"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_have_месяц"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "service_calendar.date.день"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "service_calendar.date.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_are_in_месяц2"
+			        }
+			      ]
+			    },
+			    "service_calendar_date_квартал_has_service_calendar_date_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.date.квартал": {
+			          "Target": {
+			            "Entity": "service_calendar.date.квартал"
+			          }
+			        },
+			        "service_calendar.date.месяц": {
+			          "Target": {
+			            "Entity": "service_calendar.date.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.квартал"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_месяц"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.месяц"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_квартал"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "service_calendar.date.месяц"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "service_calendar.date.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_are_in_квартал2"
+			        }
+			      ]
+			    },
+			    "service_calendar_date_год_has_service_calendar_date_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.date.год": {
+			          "Target": {
+			            "Entity": "service_calendar.date.год"
+			          }
+			        },
+			        "service_calendar.date.квартал": {
+			          "Target": {
+			            "Entity": "service_calendar.date.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.год"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "год_have_квартал1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.квартал"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_год1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "service_calendar.date.квартал"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "service_calendar.date.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_are_in_год2"
+			        }
+			      ]
+			    },
+			    "service_calendar_date_иерархия_дат_has_service_calendar_date_день": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.date.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.date.иерархия_дат"
+			          }
+			        },
+			        "service_calendar.date.день": {
+			          "Target": {
+			            "Entity": "service_calendar.date.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_день1"
+			        }
+			      ]
+			    },
+			    "service_calendar_date_иерархия_дат_has_service_calendar_date_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.date.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.date.иерархия_дат"
+			          }
+			        },
+			        "service_calendar.date.месяц": {
+			          "Target": {
+			            "Entity": "service_calendar.date.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_месяц1"
+			        }
+			      ]
+			    },
+			    "service_calendar_date_иерархия_дат_has_service_calendar_date_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.date.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.date.иерархия_дат"
+			          }
+			        },
+			        "service_calendar.date.квартал": {
+			          "Target": {
+			            "Entity": "service_calendar.date.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_квартал1"
+			        }
+			      ]
+			    },
+			    "service_calendar_date_иерархия_дат_has_service_calendar_date_год": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.date.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.date.иерархия_дат"
+			          }
+			        },
+			        "service_calendar.date.год": {
+			          "Target": {
+			            "Entity": "service_calendar.date.год"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_год1"
+			        }
+			      ]
+			    },
+			    "service_calendar_date_has_иерархия_дат": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.date": {
+			          "Target": {
+			            "Entity": "service_calendar.date"
+			          }
+			        },
+			        "service_calendar.date.иерархия_дат": {
+			          "Target": {
+			            "Entity": "service_calendar.date.иерархия_дат"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.date"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date.иерархия_дат"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_иерархия_дат"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_cohort_month_месяц_has_a_repeat_90_cohort_month_день": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90.cohort_month.месяц": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.месяц"
+			          }
+			        },
+			        "a_repeat_90.cohort_month.день": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.месяц"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_день1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.день"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_have_месяц1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.день"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_are_in_месяц1"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_cohort_month_квартал_has_a_repeat_90_cohort_month_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90.cohort_month.квартал": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.квартал"
+			          }
+			        },
+			        "a_repeat_90.cohort_month.месяц": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.квартал"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_месяц1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.месяц"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_квартал1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.месяц"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_are_in_квартал1"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_cohort_month_год_has_a_repeat_90_cohort_month_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90.cohort_month.год": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.год"
+			          }
+			        },
+			        "a_repeat_90.cohort_month.квартал": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.год"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "год_have_квартал2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.квартал"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_год2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.квартал"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_are_in_год1"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_cohort_month_иерархия_дат_has_a_repeat_90_cohort_month_день": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90.cohort_month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.иерархия_дат"
+			          }
+			        },
+			        "a_repeat_90.cohort_month.день": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_день2"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_cohort_month_иерархия_дат_has_a_repeat_90_cohort_month_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90.cohort_month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.иерархия_дат"
+			          }
+			        },
+			        "a_repeat_90.cohort_month.месяц": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_месяц2"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_cohort_month_иерархия_дат_has_a_repeat_90_cohort_month_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90.cohort_month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.иерархия_дат"
+			          }
+			        },
+			        "a_repeat_90.cohort_month.квартал": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_квартал2"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_cohort_month_иерархия_дат_has_a_repeat_90_cohort_month_год": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90.cohort_month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.иерархия_дат"
+			          }
+			        },
+			        "a_repeat_90.cohort_month.год": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.год"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_год2"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_cohort_month_has_иерархия_дат": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90.cohort_month": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month"
+			          }
+			        },
+			        "a_repeat_90.cohort_month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month.иерархия_дат"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90.cohort_month"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month.иерархия_дат"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cohort_months_have_иерархия_дат"
+			        }
+			      ]
+			    },
+			    "a_monthly_month_месяц_has_a_monthly_month_день": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly.month.месяц": {
+			          "Target": {
+			            "Entity": "a_monthly.month.месяц"
+			          }
+			        },
+			        "a_monthly.month.день": {
+			          "Target": {
+			            "Entity": "a_monthly.month.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.месяц"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_день2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.день"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_have_месяц2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "a_monthly.month.день"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "a_monthly.month.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_are_in_месяц"
+			        }
+			      ]
+			    },
+			    "a_monthly_month_квартал_has_a_monthly_month_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly.month.квартал": {
+			          "Target": {
+			            "Entity": "a_monthly.month.квартал"
+			          }
+			        },
+			        "a_monthly.month.месяц": {
+			          "Target": {
+			            "Entity": "a_monthly.month.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.квартал"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_месяц2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.месяц"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_квартал2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "a_monthly.month.месяц"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "a_monthly.month.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_are_in_квартал"
+			        }
+			      ]
+			    },
+			    "a_monthly_month_год_has_a_monthly_month_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly.month.год": {
+			          "Target": {
+			            "Entity": "a_monthly.month.год"
+			          }
+			        },
+			        "a_monthly.month.квартал": {
+			          "Target": {
+			            "Entity": "a_monthly.month.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.год"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "год_have_квартал3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.квартал"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_год3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "a_monthly.month.квартал"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "a_monthly.month.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_are_in_год"
+			        }
+			      ]
+			    },
+			    "a_monthly_month_иерархия_дат_has_a_monthly_month_день": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly.month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_monthly.month.иерархия_дат"
+			          }
+			        },
+			        "a_monthly.month.день": {
+			          "Target": {
+			            "Entity": "a_monthly.month.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_день3"
+			        }
+			      ]
+			    },
+			    "a_monthly_month_иерархия_дат_has_a_monthly_month_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly.month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_monthly.month.иерархия_дат"
+			          }
+			        },
+			        "a_monthly.month.месяц": {
+			          "Target": {
+			            "Entity": "a_monthly.month.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_месяц3"
+			        }
+			      ]
+			    },
+			    "a_monthly_month_иерархия_дат_has_a_monthly_month_квартал": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly.month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_monthly.month.иерархия_дат"
+			          }
+			        },
+			        "a_monthly.month.квартал": {
+			          "Target": {
+			            "Entity": "a_monthly.month.квартал"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_квартал3"
+			        }
+			      ]
+			    },
+			    "a_monthly_month_иерархия_дат_has_a_monthly_month_год": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly.month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_monthly.month.иерархия_дат"
+			          }
+			        },
+			        "a_monthly.month.год": {
+			          "Target": {
+			            "Entity": "a_monthly.month.год"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month.иерархия_дат"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.год"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "иерархия_дат_have_год3"
+			        }
+			      ]
+			    },
+			    "a_monthly_month_has_иерархия_дат": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly.month": {
+			          "Target": {
+			            "Entity": "a_monthly.month"
+			          }
+			        },
+			        "a_monthly.month.иерархия_дат": {
+			          "Target": {
+			            "Entity": "a_monthly.month.иерархия_дат"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly.month"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month.иерархия_дат"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "months_have_иерархия_дат"
+			        }
+			      ]
+			    },
+			    "service_order_has_service_calendar": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_calendar": {
+			          "Target": {
+			            "Entity": "service_calendar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_calendar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_service_calendars"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar"
+			            },
+			            "Object": {
+			              "Role": "service_order"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_calendars_have_service_orders"
+			        }
+			      ]
+			    },
+			    "service_calendar_has_year_month": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar": {
+			          "Target": {
+			            "Entity": "service_calendar"
+			          }
+			        },
+			        "service_calendar.year_month": {
+			          "Target": {
+			            "Entity": "service_calendar.year_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.year_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_calendars_have_year_months"
+			        }
+			      ]
+			    },
+			    "service_calendar_has_month_number": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar": {
+			          "Target": {
+			            "Entity": "service_calendar"
+			          }
+			        },
+			        "service_calendar.month_number": {
+			          "Target": {
+			            "Entity": "service_calendar.month_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_calendars_have_month_numbers"
+			        }
+			      ]
+			    },
+			    "service_calendar_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar": {
+			          "Target": {
+			            "Entity": "service_calendar"
+			          }
+			        },
+			        "service_calendar.year": {
+			          "Target": {
+			            "Entity": "service_calendar.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_calendars_have_years"
+			        }
+			      ]
+			    },
+			    "service_calendar_has_month_start": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar": {
+			          "Target": {
+			            "Entity": "service_calendar"
+			          }
+			        },
+			        "service_calendar.month_start": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_calendars_have_month_starts"
+			        }
+			      ]
+			    },
+			    "service_calendar_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar": {
+			          "Target": {
+			            "Entity": "service_calendar"
+			          }
+			        },
+			        "service_calendar.date": {
+			          "Target": {
+			            "Entity": "service_calendar.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_calendars_have_dates"
+			        }
+			      ]
+			    },
+			    "service_order_has_доля_низких_оценок_после_доставки": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.доля_низких_оценок_после_доставки": {
+			          "Target": {
+			            "Entity": "service_order.доля_низких_оценок_после_доставки"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.доля_низких_оценок_после_доставки"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_доля_низких_оценок_после_доставки"
+			        }
+			      ]
+			    },
+			    "service_order_has_отзывы_после_доставки": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.отзывы_после_доставки": {
+			          "Target": {
+			            "Entity": "service_order.отзывы_после_доставки"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.отзывы_после_доставки"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_отзывы_после_доставки"
+			        }
+			      ]
+			    },
+			    "service_order_has_доля_низких_оценок": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.доля_низких_оценок": {
+			          "Target": {
+			            "Entity": "service_order.доля_низких_оценок"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.доля_низких_оценок"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_доля_низких_оценок"
+			        }
+			      ]
+			    },
+			    "service_order_has_низкие_оценки": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.низкие_оценки": {
+			          "Target": {
+			            "Entity": "service_order.низкие_оценки"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.низкие_оценки"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_низкие_оценки"
+			        }
+			      ]
+			    },
+			    "service_order_has_заказы_с_отзывом": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.заказы_с_отзывом": {
+			          "Target": {
+			            "Entity": "service_order.заказы_с_отзывом"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.заказы_с_отзывом"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_заказы_с_отзывом"
+			        }
+			      ]
+			    },
+			    "service_order_has_доля_опозданий": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.доля_опозданий": {
+			          "Target": {
+			            "Entity": "service_order.доля_опозданий"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.доля_опозданий"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_доля_опозданий"
+			        }
+			      ]
+			    },
+			    "service_order_has_опоздавшие_заказы": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.опоздавшие_заказы": {
+			          "Target": {
+			            "Entity": "service_order.опоздавшие_заказы"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.опоздавшие_заказы"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_опоздавшие_заказы"
+			        }
+			      ]
+			    },
+			    "service_order_has_заказы_с_известной_своевременностью": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.заказы_с_известной_своевременностью": {
+			          "Target": {
+			            "Entity": "service_order.заказы_с_известной_своевременностью"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.заказы_с_известной_своевременностью"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_заказы_с_известной_своевременностью"
+			        }
+			      ]
+			    },
+			    "service_order_has_доставленные_заказы_сервиса": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.доставленные_заказы_сервиса": {
+			          "Target": {
+			            "Entity": "service_order.доставленные_заказы_сервиса"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.доставленные_заказы_сервиса"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_доставленные_заказы_сервиса"
+			        }
+			      ]
+			    },
+			    "service_order_has_review_after_delivery": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.review_after_delivery": {
+			          "Target": {
+			            "Entity": "service_order.review_after_delivery"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.review_after_delivery"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_review_after_delivery"
+			        }
+			      ]
+			    },
+			    "service_order_has_is_low_score": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.is_low_score": {
+			          "Target": {
+			            "Entity": "service_order.is_low_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.is_low_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_is_low_scores"
+			        }
+			      ]
+			    },
+			    "service_order_has_review_score": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.review_score": {
+			          "Target": {
+			            "Entity": "service_order.review_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.review_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_review_scores"
+			        }
+			      ]
+			    },
+			    "service_order_has_delivery_day": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.delivery_day": {
+			          "Target": {
+			            "Entity": "service_order.delivery_day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.delivery_day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_delivery_days"
+			        }
+			      ]
+			    },
+			    "service_order_has_is_late": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.is_late": {
+			          "Target": {
+			            "Entity": "service_order.is_late"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.is_late"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_is_late"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Adjectives": [
+			              {
+			                "late": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "service_order.is_late"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "is_late_indicates_how_late_service_orders_are"
+			        }
+			      ]
+			    },
+			    "service_order_has_delivery_status": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.delivery_status": {
+			          "Target": {
+			            "Entity": "service_order.delivery_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.delivery_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_delivery_statuses"
+			        }
+			      ]
+			    },
+			    "service_order_has_customer_state": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.customer_state": {
+			          "Target": {
+			            "Entity": "service_order.customer_state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.customer_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_customer_states"
+			        }
+			      ]
+			    },
+			    "service_order_has_purchase_date": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.purchase_date": {
+			          "Target": {
+			            "Entity": "service_order.purchase_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.purchase_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_purchase_dates"
+			        }
+			      ]
+			    },
+			    "service_order_has_order_id": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.order_id": {
+			          "Target": {
+			            "Entity": "service_order.order_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Object": {
+			              "Role": "service_order.order_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_have_order_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Name": {
+			              "Role": "service_order.order_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_ids_are_names_IDs_of_service_orders"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_has_доля_повторных_покупок_после_суток": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90": {
+			          "Target": {
+			            "Entity": "a_repeat_90"
+			          }
+			        },
+			        "a_repeat_90.доля_повторных_покупок_после_суток": {
+			          "Target": {
+			            "Entity": "a_repeat_90.доля_повторных_покупок_после_суток"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.доля_повторных_покупок_после_суток"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_repeat_90_have_доля_повторных_покупок_после_суток"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_has_доля_повторных_покупок": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90": {
+			          "Target": {
+			            "Entity": "a_repeat_90"
+			          }
+			        },
+			        "a_repeat_90.доля_повторных_покупок": {
+			          "Target": {
+			            "Entity": "a_repeat_90.доля_повторных_покупок"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.доля_повторных_покупок"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_repeat_90_have_доля_повторных_покупок"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_has_повторные_покупатели": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90": {
+			          "Target": {
+			            "Entity": "a_repeat_90"
+			          }
+			        },
+			        "a_repeat_90.повторные_покупатели": {
+			          "Target": {
+			            "Entity": "a_repeat_90.повторные_покупатели"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.повторные_покупатели"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_repeat_90_have_повторные_покупатели"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_has_покупатели_с_окном_90_дней": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90": {
+			          "Target": {
+			            "Entity": "a_repeat_90"
+			          }
+			        },
+			        "a_repeat_90.покупатели_с_окном_90_дней": {
+			          "Target": {
+			            "Entity": "a_repeat_90.покупатели_с_окном_90_дней"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.покупатели_с_окном_90_дней"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_repeat_90_have_покупатели_с_окном_90_дней"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_has_repeat_after_1d_buyers": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90": {
+			          "Target": {
+			            "Entity": "a_repeat_90"
+			          }
+			        },
+			        "a_repeat_90.repeat_after_1d_buyers": {
+			          "Target": {
+			            "Entity": "a_repeat_90.repeat_after_1d_buyers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.repeat_after_1d_buyers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_repeat_90_have_repeat_after_1d_buyers"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_has_repeat_buyer": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90": {
+			          "Target": {
+			            "Entity": "a_repeat_90"
+			          }
+			        },
+			        "a_repeat_90.repeat_buyer": {
+			          "Target": {
+			            "Entity": "a_repeat_90.repeat_buyer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.repeat_buyer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_repeat_90_have_repeat_buyers"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_has_eligible_buyer": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90": {
+			          "Target": {
+			            "Entity": "a_repeat_90"
+			          }
+			        },
+			        "a_repeat_90.eligible_buyer": {
+			          "Target": {
+			            "Entity": "a_repeat_90.eligible_buyer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.eligible_buyer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_repeat_90_have_eligible_buyers"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_has_cohort_buyer": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90": {
+			          "Target": {
+			            "Entity": "a_repeat_90"
+			          }
+			        },
+			        "a_repeat_90.cohort_buyer": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_buyer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_buyer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_repeat_90_have_cohort_buyers"
+			        }
+			      ]
+			    },
+			    "a_repeat_90_has_cohort_month": {
+			      "Binding": {
+			        "ConceptualEntity": "a_repeat90"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_repeat_90": {
+			          "Target": {
+			            "Entity": "a_repeat_90"
+			          }
+			        },
+			        "a_repeat_90.cohort_month": {
+			          "Target": {
+			            "Entity": "a_repeat_90.cohort_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_repeat_90"
+			            },
+			            "Object": {
+			              "Role": "a_repeat_90.cohort_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_repeat_90_have_cohort_months"
+			        }
+			      ]
+			    },
+			    "a_monthly_has_aov": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly": {
+			          "Target": {
+			            "Entity": "a_monthly"
+			          }
+			        },
+			        "a_monthly.aov": {
+			          "Target": {
+			            "Entity": "a_monthly.aov"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.aov"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_monthly_have_aov"
+			        }
+			      ]
+			    },
+			    "a_monthly_has_доставленные_заказы": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly": {
+			          "Target": {
+			            "Entity": "a_monthly"
+			          }
+			        },
+			        "a_monthly.доставленные_заказы": {
+			          "Target": {
+			            "Entity": "a_monthly.доставленные_заказы"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.доставленные_заказы"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_monthly_have_доставленные_заказы"
+			        }
+			      ]
+			    },
+			    "a_monthly_has_gmv": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly": {
+			          "Target": {
+			            "Entity": "a_monthly"
+			          }
+			        },
+			        "a_monthly.gmv": {
+			          "Target": {
+			            "Entity": "a_monthly.gmv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.gmv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_monthly_have_gmv"
+			        }
+			      ]
+			    },
+			    "a_monthly_has_delivered_gmv": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly": {
+			          "Target": {
+			            "Entity": "a_monthly"
+			          }
+			        },
+			        "a_monthly.delivered_gmv": {
+			          "Target": {
+			            "Entity": "a_monthly.delivered_gmv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.delivered_gmv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_monthly_have_delivered_gmvs"
+			        }
+			      ]
+			    },
+			    "a_monthly_has_delivered_buyer": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly": {
+			          "Target": {
+			            "Entity": "a_monthly"
+			          }
+			        },
+			        "a_monthly.delivered_buyer": {
+			          "Target": {
+			            "Entity": "a_monthly.delivered_buyer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.delivered_buyer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_monthly_have_delivered_buyers"
+			        }
+			      ]
+			    },
+			    "a_monthly_has_delivered_order": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly": {
+			          "Target": {
+			            "Entity": "a_monthly"
+			          }
+			        },
+			        "a_monthly.delivered_order": {
+			          "Target": {
+			            "Entity": "a_monthly.delivered_order"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.delivered_order"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_monthly_have_delivered_orders"
+			        }
+			      ]
+			    },
+			    "a_monthly_has_orders_count": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly": {
+			          "Target": {
+			            "Entity": "a_monthly"
+			          }
+			        },
+			        "a_monthly.orders_count": {
+			          "Target": {
+			            "Entity": "a_monthly.orders_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.orders_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_monthly_have_orders_counts"
+			        }
+			      ]
+			    },
+			    "a_monthly_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "a_monthly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "a_monthly": {
+			          "Target": {
+			            "Entity": "a_monthly"
+			          }
+			        },
+			        "a_monthly.month": {
+			          "Target": {
+			            "Entity": "a_monthly.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "a_monthly"
+			            },
+			            "Object": {
+			              "Role": "a_monthly.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "a_monthly_have_months"
+			        }
+			      ]
+			    },
+			    "service_order_in_customer_state": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.customer_state": {
+			          "Target": {
+			            "Entity": "service_order.customer_state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "service_order.customer_state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "service_order"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "service_order.customer_state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "service_orders_are_in_customer_states"
+			        }
+			      ]
+			    },
+			    "service_order_is_purchased_on_purchase_date": {
+			      "Binding": {
+			        "ConceptualEntity": "service_orders"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_order": {
+			          "Target": {
+			            "Entity": "service_order"
+			          }
+			        },
+			        "service_order.purchase_date": {
+			          "Target": {
+			            "Entity": "service_order.purchase_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "service_order.purchase_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "purchase": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "service_order"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "service_orders_are_purchased_on_purchase_dates"
+			        }
+			      ]
+			    },
+			    "service_calendar_month_start_квартал_has_service_calendar_month_start_месяц": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.month_start.квартал": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.квартал"
+			          }
+			        },
+			        "service_calendar.month_start.месяц": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.месяц"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.квартал"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "квартал_have_месяц3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.месяц"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_квартал3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.месяц"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "service_calendar.month_start.квартал"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_are_in_квартал3"
+			        }
+			      ]
+			    },
+			    "service_calendar_month_start_месяц_has_service_calendar_month_start_день": {
+			      "Binding": {
+			        "ConceptualEntity": "service_calendar"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "service_calendar.month_start.месяц": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.месяц"
+			          }
+			        },
+			        "service_calendar.month_start.день": {
+			          "Target": {
+			            "Entity": "service_calendar.month_start.день"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.месяц"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.день"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "месяц_have_день3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.день"
+			            },
+			            "Object": {
+			              "Role": "service_calendar.month_start.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_have_месяц3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "service_calendar.month_start.день"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "service_calendar.month_start.месяц"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "день_are_in_месяц3"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json

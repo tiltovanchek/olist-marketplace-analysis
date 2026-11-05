@@ -1,0 +1,83 @@
+table a_repeat90
+	lineageTag: a8a1a748-e36d-4588-b64b-eb50860ae604
+
+	measure 'Покупатели с окном 90 дней' = SUM(a_repeat90[eligible_buyers])
+		formatString: 0
+		lineageTag: 613788e2-2fc7-48e6-b850-4870b8b153ed
+
+	measure 'Повторные покупатели' = SUM(a_repeat90[repeat_buyers])
+		formatString: 0
+		lineageTag: 5af77055-f41e-416e-8b56-fb83a499d9d1
+
+	measure 'Доля повторных покупок' = DIVIDE([Повторные покупатели], [Покупатели с окном 90 дней])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 4aeb699a-9c74-44cc-af95-8f015ce29ad8
+
+	measure 'Доля повторных покупок после суток' = DIVIDE(SUM(a_repeat90[repeat_after_1d_buyers]), [Покупатели с окном 90 дней])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 4bf78120-02fe-45a6-8ef6-425eb26990d4
+
+	column cohort_month
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8e63d0d9-9ff3-42d3-8f97-39784ea946fe
+		summarizeBy: none
+		sourceColumn: cohort_month
+
+		variation Variation
+			isDefault
+			relationship: e014d3d1-cb48-4e80-a79e-963784bfc2b8
+			defaultHierarchy: LocalDateTable_b2f0564b-21c1-4991-8ef5-1917c6d1e3aa.'Иерархия дат'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column cohort_buyers
+		dataType: int64
+		formatString: 0
+		lineageTag: 844e01f9-4373-4dd9-b856-4f9989fd347a
+		summarizeBy: sum
+		sourceColumn: cohort_buyers
+
+		annotation SummarizationSetBy = Automatic
+
+	column eligible_buyers
+		dataType: int64
+		formatString: 0
+		lineageTag: 5608b0d0-5660-44ae-9603-c4c29d12e978
+		summarizeBy: sum
+		sourceColumn: eligible_buyers
+
+		annotation SummarizationSetBy = Automatic
+
+	column repeat_buyers
+		dataType: int64
+		formatString: 0
+		lineageTag: 23cf2771-ae08-481f-ba58-1befa792d20b
+		summarizeBy: sum
+		sourceColumn: repeat_buyers
+
+		annotation SummarizationSetBy = Automatic
+
+	column repeat_after_1d_buyers
+		dataType: int64
+		formatString: 0
+		lineageTag: 680149a0-e7ec-4004-9f70-8a959eb3b3e6
+		summarizeBy: sum
+		sourceColumn: repeat_after_1d_buyers
+
+		annotation SummarizationSetBy = Automatic
+
+	partition a_repeat90 = m
+		mode: import
+		source =
+				let
+				  Источник = Csv.Document(File.Contents(ProjectRoot & "\reports\tables\a_repeat90.csv"), [Delimiter = ",", Columns = 11, QuoteStyle = QuoteStyle.None]),
+				  #"Повышенные заголовки" = Table.PromoteHeaders(Источник, [PromoteAllScalars = true]),
+				  #"Удалить другие столбцы" = Table.SelectColumns(#"Повышенные заголовки", {"cohort_month", "cohort_buyers", "eligible_buyers", "repeat_buyers", "repeat_after_1d_buyers"}),
+				  #"Измененный тип столбца" = Table.TransformColumnTypes(#"Удалить другие столбцы", {{"cohort_month", type date}, {"cohort_buyers", Int64.Type}, {"eligible_buyers", Int64.Type}, {"repeat_buyers", Int64.Type}, {"repeat_after_1d_buyers", Int64.Type}}, "ru")
+				in
+				  #"Измененный тип столбца"
+
+	annotation PBI_ResultType = Table

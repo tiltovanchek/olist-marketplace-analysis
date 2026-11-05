@@ -1,0 +1,502 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "904d8777b98460ca61a0",
+  "position": {
+    "x": 32,
+    "y": 656,
+    "width": 1856,
+    "height": 312,
+    "z": 8,
+    "tabOrder": 8
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "service_orders"
+                    }
+                  },
+                  "Property": "delivery_status"
+                }
+              },
+              "queryRef": "service_orders.delivery_status",
+              "nativeQueryRef": "Доставка",
+              "active": true,
+              "displayName": "Доставка"
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "service_orders"
+                    }
+                  },
+                  "Property": "Заказы с отзывом"
+                }
+              },
+              "queryRef": "service_orders.Заказы с отзывом",
+              "nativeQueryRef": "Заказы с отзывом",
+              "format": "#,0",
+              "displayName": "Заказы с отзывом"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "service_orders"
+                    }
+                  },
+                  "Property": "Низкие оценки"
+                }
+              },
+              "queryRef": "service_orders.Низкие оценки",
+              "nativeQueryRef": "Оценки 1–2",
+              "format": "#,0",
+              "displayName": "Оценки 1–2"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "service_orders"
+                    }
+                  },
+                  "Property": "Доля низких оценок"
+                }
+              },
+              "queryRef": "service_orders.Доля низких оценок",
+              "nativeQueryRef": "Доля оценок 1–2",
+              "format": "0.00%;-0.00%;0.00%",
+              "displayName": "Доля оценок 1–2"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "service_orders"
+                    }
+                  },
+                  "Property": "Отзывы после доставки"
+                }
+              },
+              "queryRef": "service_orders.Отзывы после доставки",
+              "nativeQueryRef": "Отзывы после доставки",
+              "format": "#,0",
+              "displayName": "Отзывы после доставки"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "service_orders"
+                    }
+                  },
+                  "Property": "Доля низких оценок после доставки"
+                }
+              },
+              "queryRef": "service_orders.Доля низких оценок после доставки",
+              "nativeQueryRef": "Доля 1–2 после доставки",
+              "format": "0.00%;-0.00%;0.00%",
+              "displayName": "Доля 1–2 после доставки"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "service_orders"
+                  }
+                },
+                "Property": "Доля низких оценок"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "columnAdjustment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'growToFit'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#101828'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "gridHorizontal": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "gridVertical": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "rowPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#101828'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rowHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#101828'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Отзывы и своевременность доставки'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "22D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#101828'"
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'left'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "keepLayerOrder": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "altText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Выбранные отзывы по своевременности доставки: количество и доля низких оценок, все отзывы и ответы после доставки.'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "8e91a81503320ba60009",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "service_orders"
+              }
+            },
+            "Property": "delivery_status"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "68843d098cce9cb078ae",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "service_orders"
+              }
+            },
+            "Property": "Заказы с отзывом"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "7fca7a051513d4b06330",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "service_orders"
+              }
+            },
+            "Property": "Низкие оценки"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "ba4254ab3871daa28a05",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "service_orders"
+              }
+            },
+            "Property": "Доля низких оценок"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "a56f8d8f425e1e56d170",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "service_orders"
+              }
+            },
+            "Property": "Отзывы после доставки"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "52f5488ba09b06ae9e13",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "service_orders"
+              }
+            },
+            "Property": "Доля низких оценок после доставки"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

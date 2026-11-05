@@ -1,0 +1,4 @@
+expression ProjectRoot = "C:\Users\mihai\Desktop\прога\olist-marketplace-analysis" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 3e908ce1-1640-4287-b821-4ba0d992771d
+
+	annotation PBI_ResultType = Text

@@ -1,0 +1,23 @@
+relationship 97d5b98a-6195-41a4-a885-4c048f1a97a0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: a_monthly.month
+	toColumn: LocalDateTable_6212a849-3dab-4e05-b47b-c03736abcfb8.Date
+
+relationship e014d3d1-cb48-4e80-a79e-963784bfc2b8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: a_repeat90.cohort_month
+	toColumn: LocalDateTable_b2f0564b-21c1-4991-8ef5-1917c6d1e3aa.Date
+
+relationship c718c00f-db9c-4575-ad1b-c3fb9c40b12d
+	joinOnDateBehavior: datePartOnly
+	fromColumn: service_calendar.date
+	toColumn: LocalDateTable_52d588c2-2c2b-4540-9c97-48a2f0fba3d1.Date
+
+relationship 04a0d88b-659c-4981-a68d-7b7d0a06ff81
+	joinOnDateBehavior: datePartOnly
+	fromColumn: service_calendar.month_start
+	toColumn: LocalDateTable_2f52b628-e3d3-4fcb-afe5-87238ba946ec.Date
+
+relationship 8e3b76b0-73a9-b66e-6173-411337a12512
+	fromColumn: service_orders.purchase_date
+	toColumn: service_calendar.date

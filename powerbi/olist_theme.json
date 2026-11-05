@@ -1,0 +1,13 @@
+{
+  "name": "Olist · Product analytics",
+  "dataColors": ["#2F6FED", "#344054", "#16836D", "#B54708", "#7F56D9", "#B42318"],
+  "background": "#F5F7FA",
+  "foreground": "#101828",
+  "tableAccent": "#2F6FED",
+  "textClasses": {
+    "callout": {"fontSize": 40, "fontFace": "Segoe UI Semibold", "color": "#101828"},
+    "title": {"fontSize": 20, "fontFace": "Segoe UI Semibold", "color": "#101828"},
+    "header": {"fontSize": 18, "fontFace": "Segoe UI Semibold", "color": "#101828"},
+    "label": {"fontSize": 16, "fontFace": "Segoe UI", "color": "#475467"}
+  }
+}

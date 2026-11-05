@@ -1,0 +1,134 @@
+table service_orders
+	lineageTag: b5623eb5-07f0-48cc-9051-9675a2d5e3f7
+
+	measure 'Доставленные заказы сервиса' = COUNTROWS('service_orders')
+		formatString: 0
+		lineageTag: c67fbb24-23a9-4ae2-81dc-d5048deb6021
+
+	measure 'Заказы с известной своевременностью' = COUNT(service_orders[is_late])
+		formatString: 0
+		lineageTag: 0857e5ce-25ad-4561-8b31-b98b47d48408
+
+	measure 'Опоздавшие заказы' = sum(service_orders[is_late])
+		formatString: 0
+		lineageTag: c5d23403-24c9-44b2-9865-b5caa0ff75ae
+
+	measure 'Доля опозданий' = divide([Опоздавшие заказы], [Заказы с известной своевременностью])
+		lineageTag: d2d7bbf6-0bce-4428-9f85-934d72467071
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Заказы с отзывом' = COUNT('service_orders'[review_score])
+		formatString: 0
+		lineageTag: 1629076d-538a-4442-8e54-634ff14958eb
+
+	measure 'Низкие оценки' = SUM(service_orders[is_low_score])
+		formatString: 0
+		lineageTag: 3c555a75-b1c9-4123-8a6b-e090cfd03e4d
+
+	measure 'Доля низких оценок' = DIVIDE([Низкие оценки], [Заказы с отзывом])
+		lineageTag: e51dd34c-acfb-43bc-a40a-1aaf4b193c45
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Отзывы после доставки' = CALCULATE([Заказы с отзывом], service_orders[review_after_delivery] = 1)
+		formatString: 0
+		lineageTag: 466a9f26-d8c0-4bbd-aad6-75ba6d7ff6f9
+
+	measure 'Доля низких оценок после доставки' = CALCULATE([Доля низких оценок], service_orders[review_after_delivery] = 1)
+		lineageTag: f8ff4faa-7b1f-49d9-a33b-2bcce8b37f4a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column order_id
+		dataType: string
+		lineageTag: 9a7b1738-cbb3-4ea9-a50e-96b435d80b15
+		summarizeBy: none
+		sourceColumn: order_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column purchase_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d1c62af4-7585-4ffd-a960-79929413a705
+		summarizeBy: none
+		sourceColumn: purchase_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column customer_state
+		dataType: string
+		lineageTag: 35bec545-c90c-454b-802e-c536b0c4ccee
+		summarizeBy: none
+		sourceColumn: customer_state
+
+		annotation SummarizationSetBy = Automatic
+
+	column delivery_status
+		dataType: string
+		lineageTag: 60c32d6b-2312-4aef-aa13-cb56b0717c52
+		summarizeBy: none
+		sourceColumn: delivery_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_late
+		dataType: int64
+		formatString: 0
+		lineageTag: 216c1e46-ecd6-4dc6-85b1-17f4dc8ef3b3
+		summarizeBy: sum
+		sourceColumn: is_late
+
+		annotation SummarizationSetBy = Automatic
+
+	column delivery_days
+		dataType: double
+		lineageTag: 5b0c994f-ea2b-4ace-94de-dc49e4e0e410
+		summarizeBy: sum
+		sourceColumn: delivery_days
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column review_score
+		dataType: int64
+		formatString: 0
+		lineageTag: c4352883-f404-486a-b894-875d6685251c
+		summarizeBy: sum
+		sourceColumn: review_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_low_score
+		dataType: int64
+		formatString: 0
+		lineageTag: dddd8765-7d4e-403e-8c4b-0ced4d933b81
+		summarizeBy: sum
+		sourceColumn: is_low_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column review_after_delivery
+		dataType: int64
+		formatString: 0
+		lineageTag: 994fe86b-22fd-4865-962f-0c79a2240d5f
+		summarizeBy: sum
+		sourceColumn: review_after_delivery
+
+		annotation SummarizationSetBy = Automatic
+
+	partition service_orders = m
+		mode: import
+		source =
+				let
+				  Источник = Csv.Document(File.Contents(ProjectRoot & "\data\powerbi\service_orders.csv"), [Delimiter = ",", Columns = 9, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Повышенные заголовки" = Table.PromoteHeaders(Источник, [PromoteAllScalars = true]),
+				  #"Изменены тип и локаль столбца." = Table.TransformColumnTypes(#"Повышенные заголовки", {{"delivery_days", type number}, {"order_id", type text}, {"purchase_date", type date}, {"customer_state", type text}, {"delivery_status", type text}, {"is_late", Int64.Type}, {"review_score", Int64.Type}, {"is_low_score", Int64.Type}, {"review_after_delivery", Int64.Type}}, "en-US")
+				in
+				  #"Изменены тип и локаль столбца."
+
+	annotation PBI_ResultType = Table

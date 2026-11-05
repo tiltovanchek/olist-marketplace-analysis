@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "scope": "Static PBIR/TMDL source checks; no UI, refresh or DAX execution",
+  "json_files_checked": 36,
+  "tmdl_files_read": 14,
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "display_option": "FitToPage",
+    "margins": {
+      "left": 32,
+      "top": 24,
+      "right": 32,
+      "bottom": 32
+    }
+  },
+  "pages": [
+    {
+      "page": "Доставка и отзывы",
+      "visual_count": 10,
+      "out_of_bounds": [],
+      "overlaps": []
+    },
+    {
+      "page": "Повторные покупки",
+      "visual_count": 7,
+      "out_of_bounds": [],
+      "overlaps": []
+    },
+    {
+      "page": "Обзор бизнеса",
+      "visual_count": 7,
+      "out_of_bounds": [],
+      "overlaps": []
+    }
+  ],
+  "visual_count": 24,
+  "relationships": {
+    "business": [
+      {
+        "name": "8e3b76b0-73a9-b66e-6173-411337a12512",
+        "from_column": "service_orders.purchase_date",
+        "to_column": "service_calendar.date",
+        "from_cardinality": "many",
+        "to_cardinality": "one",
+        "cross_filtering": "oneDirection",
+        "active": "true"
+      }
+    ],
+    "automatic_date_relationships": 4
+  },
+  "csv_sources": [
+    {
+      "table": "a_monthly",
+      "path": "reports/tables/a_monthly.csv",
+      "parameter": "ProjectRoot"
+    },
+    {
+      "table": "a_repeat90",
+      "path": "reports/tables/a_repeat90.csv",
+      "parameter": "ProjectRoot"
+    },
+    {
+      "table": "service_calendar",
+      "path": "data/powerbi/service_calendar.csv",
+      "parameter": "ProjectRoot"
+    },
+    {
+      "table": "service_orders",
+      "path": "data/powerbi/service_orders.csv",
+      "parameter": "ProjectRoot"
+    }
+  ],
+  "measures_checked": [
+    {
+      "table": "a_monthly",
+      "measure": "GMV",
+      "passed": true
+    },
+    {
+      "table": "a_monthly",
+      "measure": "Доставленные заказы",
+      "passed": true
+    },
+    {
+      "table": "a_monthly",
+      "measure": "AOV",
+      "passed": true
+    },
+    {
+      "table": "a_repeat90",
+      "measure": "Покупатели с окном 90 дней",
+      "passed": true
+    },
+    {
+      "table": "a_repeat90",
+      "measure": "Повторные покупатели",
+      "passed": true
+    },
+    {
+      "table": "a_repeat90",
+      "measure": "Доля повторных покупок",
+      "passed": true
+    },
+    {
+      "table": "a_repeat90",
+      "measure": "Доля повторных покупок после суток",
+      "passed": true
+    },
+    {
+      "table": "service_orders",
+      "measure": "Доставленные заказы сервиса",
+      "passed": true
+    },
+    {
+      "table": "service_orders",
+      "measure": "Заказы с известной своевременностью",
+      "passed": true
+    },
+    {
+      "table": "service_orders",
+      "measure": "Опоздавшие заказы",
+      "passed": true
+    },
+    {
+      "table": "service_orders",
+      "measure": "Доля опозданий",
+      "passed": true
+    },
+    {
+      "table": "service_orders",
+      "measure": "Заказы с отзывом",
+      "passed": true
+    },
+    {
+      "table": "service_orders",
+      "measure": "Низкие оценки",
+      "passed": true
+    },
+    {
+      "table": "service_orders",
+      "measure": "Доля низких оценок",
+      "passed": true
+    },
+    {
+      "table": "service_orders",
+      "measure": "Отзывы после доставки",
+      "passed": true
+    },
+    {
+      "table": "service_orders",
+      "measure": "Доля низких оценок после доставки",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

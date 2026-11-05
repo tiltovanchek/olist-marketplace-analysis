@@ -1,0 +1,26 @@
+model Model
+	culture: ru-RU
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: ru-RU
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["ProjectRoot","a_monthly","a_repeat90","service_orders","service_calendar"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table a_monthly
+ref table DateTableTemplate_988c99a7-1a95-480c-b218-2614f9087ec7
+ref table LocalDateTable_6212a849-3dab-4e05-b47b-c03736abcfb8
+ref table a_repeat90
+ref table LocalDateTable_b2f0564b-21c1-4991-8ef5-1917c6d1e3aa
+ref table service_orders
+ref table service_calendar
+ref table LocalDateTable_52d588c2-2c2b-4540-9c97-48a2f0fba3d1
+ref table LocalDateTable_2f52b628-e3d3-4fcb-afe5-87238ba946ec
+
+ref cultureInfo ru-RU

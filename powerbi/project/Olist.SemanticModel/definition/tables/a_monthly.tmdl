@@ -1,0 +1,86 @@
+table a_monthly
+	lineageTag: 448fd001-d637-47b7-87c7-6ea5e93da5bc
+
+	measure GMV = SUM('a_monthly'[delivered_gmv])
+		formatString: " #,##0.00"" R$"""
+		lineageTag: 51c429d8-1521-4474-a8dc-c3450b04c3e5
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	measure 'Доставленные заказы' = SUM('a_monthly'[delivered_orders])
+		formatString: 0
+		lineageTag: dc0b7b5e-73a1-4b65-9af4-2f83d88ce428
+
+	measure AOV = DIVIDE([GMV], [Доставленные заказы])
+		formatString: #,##0.00" R$"
+		lineageTag: 49cb4db9-9072-4aed-a00f-f01b5f65a34e
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	column month
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: b8153bdc-7034-4e50-adcf-432aeec40014
+		summarizeBy: none
+		sourceColumn: month
+
+		variation Variation
+			isDefault
+			relationship: 97d5b98a-6195-41a4-a885-4c048f1a97a0
+			defaultHierarchy: LocalDateTable_6212a849-3dab-4e05-b47b-c03736abcfb8.'Иерархия дат'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column orders_count
+		dataType: int64
+		formatString: 0
+		lineageTag: 9c44630e-0896-47de-8685-3936c53ef6d0
+		summarizeBy: sum
+		sourceColumn: orders_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column delivered_orders
+		dataType: int64
+		formatString: 0
+		lineageTag: 5a2ef6a2-1a10-4640-853d-035ff13b2610
+		summarizeBy: sum
+		sourceColumn: delivered_orders
+
+		annotation SummarizationSetBy = Automatic
+
+	column delivered_buyers
+		dataType: int64
+		formatString: 0
+		lineageTag: 138380a2-a96d-42ce-9658-a486fa536a98
+		summarizeBy: sum
+		sourceColumn: delivered_buyers
+
+		annotation SummarizationSetBy = Automatic
+
+	column delivered_gmv
+		dataType: double
+		lineageTag: b4ef7308-fece-4851-90ff-6368c5753a8d
+		summarizeBy: sum
+		sourceColumn: delivered_gmv
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition a_monthly = m
+		mode: import
+		source =
+				let
+				  Источник = Csv.Document(File.Contents(ProjectRoot & "\reports\tables\a_monthly.csv"), [Delimiter = ",", Columns = 21, QuoteStyle = QuoteStyle.None]),
+				  #"Повышенные заголовки" = Table.PromoteHeaders(Источник, [PromoteAllScalars = true]),
+				  #"Удалить другие столбцы" = Table.SelectColumns(#"Повышенные заголовки", {"month", "delivered_orders", "delivered_buyers", "delivered_gmv", "orders_count"}),
+				  #"Измененный тип столбца" = Table.TransformColumnTypes(#"Удалить другие столбцы", {{"month", type date}, {"delivered_orders", Int64.Type}, {"delivered_buyers", Int64.Type}, {"delivered_gmv", type text}, {"orders_count", Int64.Type}}, "ru"),
+				  #"Переупорядоченные столбцы" = Table.ReorderColumns(#"Измененный тип столбца", {"month", "orders_count", "delivered_orders", "delivered_buyers", "delivered_gmv"}),
+				  #"Изменены тип и локаль столбца." = Table.TransformColumnTypes(#"Переупорядоченные столбцы", {{"delivered_gmv", type number}}, "en-US")
+				in
+				  #"Изменены тип и локаль столбца."
+
+	annotation PBI_ResultType = Table
