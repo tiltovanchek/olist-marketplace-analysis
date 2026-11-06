@@ -67,7 +67,7 @@
     "07_product_metrics.sql": "dd2cf6b815184e3de40af03a16b13a112619a32f426ea10962bd166d072d3c6c"
   },
   "code_sha256": {
-    "scripts/build_portfolio.py": "3725021cfe1aeb2d292a452cd188c6ec2c6d4656f8d7e9f51a73045b24566b9f",
+    "scripts/build_portfolio.py": "aa5fcb07723fe03f9ba1648dbbaf6fba309952f754550349c3cb864062520742",
     "requirements.txt": "0c73d6d9894a27fbcb52692488534f469a49ed612307f7f9bec94d07e030a05a"
   }
 }
